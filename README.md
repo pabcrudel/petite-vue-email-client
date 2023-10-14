@@ -1,4 +1,4 @@
-# Petite Vue Email Client (Work in progress)
+# Petite Vue Email Client SPA (Work in progress)
 
 This project uses [Random User API](https://randomuser.me/api/) to generate a
 user with the following information:
@@ -8,7 +8,7 @@ user with the following information:
 - Username
 - Profile picture
 
-The proposal of this project is to create an Email Client App like `Gmail` or
+The proposal of this project is to create an Email Client SPA like `Gmail` or
 `Outlook` using [Petite Vue](https://github.com/vuejs/petite-vue), a Vue.js
 optimized version for [progressive
 enhancement](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement).
