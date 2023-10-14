@@ -7,7 +7,17 @@
   <title>Email Client</title>
 </head>
 <body>
-  <h1>Hello Email Client</h1>
-  <div id="app"/>
+  <div id="app">
+    
+    <h1>{{ user.title }} {{ user.firstName }} {{ user.lastName }}</h1>
+
+    <p>{{ user.email }}</p>
+    <p>@{{ user.username }}</p>
+
+    <picture>
+      <img :src="user.photo" alt="User profile photo">
+    </picture>
+
+  </div>
 </body>
 </html>
